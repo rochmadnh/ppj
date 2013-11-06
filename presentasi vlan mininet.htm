@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!-- saved from url=(0118)file:///C:/Users/Rochmad/Documents/College/Pemrograman%20Perangkat%20Jaringan/UTS/presentasi/deck%20by%20rochmadnh.htm -->
+<html class="decks show  mz-js mz-no-touch mz-history mz-rgba mz-backgroundsize mz-opacity mz-cssanimations mz-csstransforms mz-csstransforms3d mz-csstransitions mz-localstorage mz-applicationcache mz-svg mz-fullscreen loaded ua-chrome mz-js mz-no-touch mz-history mz-rgba mz-backgroundsize mz-opacity mz-cssanimations mz-csstransforms mz-csstransforms3d mz-csstransitions mz-localstorage mz-applicationcache mz-svg mz-fullscreen" data-account="free" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>deck by rochmadnh</title>
+    <meta name="description" content="A presentation created with Slides.">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta property="og:title" content="deck by rochmadnh">
+    <meta property="og:site_name" content="Slides">
+    <meta property="og:image" content="https://s3.amazonaws.com/media-p.slid.es/thumbnails/rochmadnh/b39bd5/deck--2.jpg">
+    <meta property="og:type" content="presentation">
+    <meta property="og:url" content="http://slid.es/rochmadnh/deck--2">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link href="./presentasi vlan mininet_files/css" rel="stylesheet" type="text/css">
+
+    <link href="./presentasi vlan mininet_files/slides-62c8b2c81458fe2e42389866871a17b2.css" media="all" rel="stylesheet" type="text/css">
+    <link href="./presentasi vlan mininet_files/application-235f2b0fa2a339c266ecab3aaeab521a.css" media="all" rel="stylesheet" type="text/css">
+    <script type="text/javascript" async="" src="./presentasi vlan mininet_files/segment.min.js"></script><script type="text/javascript" async="" src="./presentasi vlan mininet_files/ga.js"></script><script type="text/javascript" async="" src="./presentasi vlan mininet_files/segment.min.js"></script><script type="text/javascript" async="" src="./presentasi vlan mininet_files/ga.js"></script><script src="./presentasi vlan mininet_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="file://widget.uservoice.com/f7sH7NavrjjvuGxByaw.js"></script><script type="text/javascript" async="" src="./presentasi vlan mininet_files/analytics.min.js"></script><script src="./presentasi vlan mininet_files/cb=gapi.loaded_1" async=""></script><script src="./presentasi vlan mininet_files/cb=gapi(1).loaded_0" async=""></script><script type="text/javascript" async="" src="./presentasi vlan mininet_files/segment.min(1).js"></script><script type="text/javascript" async="" src="./presentasi vlan mininet_files/ga(1).js"></script><script type="text/javascript" async="" src="./presentasi vlan mininet_files/plusone.js" gapi_processed="true"></script><script id="twitter-wjs" src="./presentasi vlan mininet_files/widgets.js"></script><script id="facebook-jssdk" src="./presentasi vlan mininet_files/all.js"></script><script type="application/javascript" async="" defer="" src="./presentasi vlan mininet_files/track.js"></script><script type="text/javascript" async="" src="./presentasi vlan mininet_files/f7sH7NavrjjvuGxByaw(1).js"></script><script type="text/javascript" async="" src="./presentasi vlan mininet_files/analytics.min(1).js"></script><script src="./presentasi vlan mininet_files/modernizr-8de39a011a7fbb0c52e24f7f6a30f4e7.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param">
+<meta content="Fslh11PH+kgU2XavEFjB7k9CqspACJpJ252noixftjo=" name="csrf-token">
+    <script type="text/javascript">
+  var analytics=analytics||[];analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);var r=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}},i=["identify","track","trackLink","trackForm","trackClick","trackSubmit","pageview","ab","alias","ready"];for(var s=0;s<i.length;s++)analytics[i[s]]=r(i[s])};
+  analytics.load('8t66f1pnq9');
+</script>
+    <script>
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/f7sH7NavrjjvuGxByaw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+UserVoice.push(['set', {
+  accent_color: '#448dd6',
+  trigger_color: 'white',
+  trigger_background_color: 'rgba(46, 49, 51, 0.6)',
+  position: 'automatic'
+}]);
+
+UserVoice.push(['identify', {
+  email:      "rochmad.nh@gmail.com",
+  name:       "rochmadnh",
+  id:         "77132",
+  type:       "default",
+  created_at: 1383005760
+
+}]);
+</script>
+    	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@SlidesApp">
+	<meta name="twitter:title" content="deck">
+	<meta name="twitter:description" content="An interactive presentation created with Slides.">
+	<meta name="twitter:image" content="https://s3.amazonaws.com/media-p.slid.es/thumbnails/rochmadnh/b39bd5/deck--2.jpg">
+
+	<link href="./presentasi vlan mininet_files/deck-306a62146ed05ea88b5e5a9bcde9df49.css" media="all" rel="stylesheet" type="text/css">
+	<style id="user-css-output" type="text/css"></style>
+
+  <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><style type="text/css" media="screen">.uv-icon{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;cursor:pointer;position:relative;-webkit-transition:all 300ms;-moz-transition:all 300ms;-o-transition:all 300ms;transition:all 300ms;width:39px;height:39px;position:fixed;z-index:100002;opacity:0.8;-webkit-transition:opacity 100ms;-moz-transition:opacity 100ms;-o-transition:opacity 100ms;transition:opacity 100ms}.uv-icon.uv-bottom-right{bottom:10px;right:12px}.uv-icon.uv-top-right{top:10px;right:12px}.uv-icon.uv-bottom-left{bottom:10px;left:12px}.uv-icon.uv-top-left{top:10px;left:12px}.uv-icon.uv-is-selected{opacity:1}.uv-icon svg{width:39px;height:39px}.uv-popover{font-family:sans-serif;font-weight:100;font-size:13px;color:black;position:fixed;z-index:100001}.uv-popover-content{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;background:white;position:relative;width:325px;height:325px;-webkit-transition:background 200ms;-moz-transition:background 200ms;-o-transition:background 200ms;transition:background 200ms}.uv-bottom .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-top .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-left .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-right .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-ie8 .uv-popover-content{position:relative}.uv-ie8 .uv-popover-content .uv-popover-content-shadow{display:block;background:black;content:'';position:absolute;left:-15px;top:-15px;width:100%;height:100%;filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=15,MakeShadow=true,ShadowOpacity=0.30);z-index:-1}.uv-popover-tail{border:8px solid transparent;width:0;z-index:10;position:absolute;-webkit-transition:border-top-color 200ms;-moz-transition:border-top-color 200ms;-o-transition:border-top-color 200ms;transition:border-top-color 200ms}.uv-top .uv-popover-tail{bottom:-20px;border-top:12px solid white}.uv-bottom .uv-popover-tail{top:-20px;border-bottom:12px solid white}.uv-left .uv-popover-tail{right:-20px;border-left:12px solid white}.uv-right .uv-popover-tail{left:-20px;border-right:12px solid white}.uv-popover-loading{background:white;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;position:absolute;width:100%;height:100%;left:0;top:0}.uv-popover-loading-text{position:absolute;top:50%;margin-top:-0.5em;width:100%;text-align:center}.uv-popover-iframe-container{height:100%}.uv-popover-iframe{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;overflow:hidden}.uv-is-hidden{display:none}.uv-is-invisible{display:block !important;visibility:hidden !important}.uv-is-transitioning{display:block !important}.uv-no-transition{-moz-transition:none !important;-webkit-transition:none !important;-o-transition:color 0 ease-in !important;transition:none !important}.uv-fade{opacity:1;-webkit-transition:opacity 200ms ease-out;-moz-transition:opacity 200ms ease-out;-o-transition:opacity 200ms ease-out;transition:opacity 200ms ease-out}.uv-fade.uv-is-hidden{opacity:0}.uv-scale-top,.uv-scale-top-left,.uv-scale-top-right,.uv-scale-bottom,.uv-scale-bottom-left,.uv-scale-bottom-right,.uv-scale-right,.uv-scale-right-top,.uv-scale-right-bottom,.uv-scale-left,.uv-scale-left-top,.uv-scale-left-bottom,.uv-slide-top,.uv-slide-bottom,.uv-slide-left,.uv-slide-right{opacity:1;-webkit-transition:all 80ms ease-out;-moz-transition:all 80ms ease-out;-o-transition:all 80ms ease-out;transition:all 80ms ease-out}.uv-scale-top.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(-15%);-moz-transform:scale(0.8) translateY(-15%);-ms-transform:scale(0.8) translateY(-15%);-o-transform:scale(0.8) translateY(-15%);transform:scale(0.8) translateY(-15%)}.uv-scale-top-left.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(-15%) translateX(-10%);-moz-transform:scale(0.8) translateY(-15%) translateX(-10%);-ms-transform:scale(0.8) translateY(-15%) translateX(-10%);-o-transform:scale(0.8) translateY(-15%) translateX(-10%);transform:scale(0.8) translateY(-15%) translateX(-10%)}.uv-scale-top-right.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(-15%) translateX(10%);-moz-transform:scale(0.8) translateY(-15%) translateX(10%);-ms-transform:scale(0.8) translateY(-15%) translateX(10%);-o-transform:scale(0.8) translateY(-15%) translateX(10%);transform:scale(0.8) translateY(-15%) translateX(10%)}.uv-scale-bottom.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(15%);-moz-transform:scale(0.8) translateY(15%);-ms-transform:scale(0.8) translateY(15%);-o-transform:scale(0.8) translateY(15%);transform:scale(0.8) translateY(15%)}.uv-scale-bottom-left.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(15%) translateX(-10%);-moz-transform:scale(0.8) translateY(15%) translateX(-10%);-ms-transform:scale(0.8) translateY(15%) translateX(-10%);-o-transform:scale(0.8) translateY(15%) translateX(-10%);transform:scale(0.8) translateY(15%) translateX(-10%)}.uv-scale-bottom-right.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(15%) translateX(10%);-moz-transform:scale(0.8) translateY(15%) translateX(10%);-ms-transform:scale(0.8) translateY(15%) translateX(10%);-o-transform:scale(0.8) translateY(15%) translateX(10%);transform:scale(0.8) translateY(15%) translateX(10%)}.uv-scale-right.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(15%);-moz-transform:scale(0.8) translateX(15%);-ms-transform:scale(0.8) translateX(15%);-o-transform:scale(0.8) translateX(15%);transform:scale(0.8) translateX(15%)}.uv-scale-right-top.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(15%) translateY(-10%);-moz-transform:scale(0.8) translateX(15%) translateY(-10%);-ms-transform:scale(0.8) translateX(15%) translateY(-10%);-o-transform:scale(0.8) translateX(15%) translateY(-10%);transform:scale(0.8) translateX(15%) translateY(-10%)}.uv-scale-right-bottom.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(15%) translateY(10%);-moz-transform:scale(0.8) translateX(15%) translateY(10%);-ms-transform:scale(0.8) translateX(15%) translateY(10%);-o-transform:scale(0.8) translateX(15%) translateY(10%);transform:scale(0.8) translateX(15%) translateY(10%)}.uv-scale-left.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(-15%);-moz-transform:scale(0.8) translateX(-15%);-ms-transform:scale(0.8) translateX(-15%);-o-transform:scale(0.8) translateX(-15%);transform:scale(0.8) translateX(-15%)}.uv-scale-left-top.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(-15%) translateY(-10%);-moz-transform:scale(0.8) translateX(-15%) translateY(-10%);-ms-transform:scale(0.8) translateX(-15%) translateY(-10%);-o-transform:scale(0.8) translateX(-15%) translateY(-10%);transform:scale(0.8) translateX(-15%) translateY(-10%)}.uv-scale-left-bottom.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(-15%) translateY(10%);-moz-transform:scale(0.8) translateX(-15%) translateY(10%);-ms-transform:scale(0.8) translateX(-15%) translateY(10%);-o-transform:scale(0.8) translateX(-15%) translateY(10%);transform:scale(0.8) translateX(-15%) translateY(10%)}.uv-slide-top.uv-is-hidden{-webkit-transform:translateY(-100%);-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-o-transform:translateY(-100%);transform:translateY(-100%)}.uv-slide-bottom.uv-is-hidden{-webkit-transform:translateY(100%);-moz-transform:translateY(100%);-ms-transform:translateY(100%);-o-transform:translateY(100%);transform:translateY(100%)}.uv-slide-left.uv-is-hidden{-webkit-transform:translateX(-100%);-moz-transform:translateX(-100%);-ms-transform:translateX(-100%);-o-transform:translateX(-100%);transform:translateX(-100%)}.uv-slide-right.uv-is-hidden{-webkit-transform:translateX(100%);-moz-transform:translateX(100%);-ms-transform:translateX(100%);-o-transform:translateX(100%);transform:translateX(100%)}
+</style><style type="text/css" media="screen">.uv-icon{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;cursor:pointer;position:relative;-webkit-transition:all 300ms;-moz-transition:all 300ms;-o-transition:all 300ms;transition:all 300ms;width:39px;height:39px;position:fixed;z-index:100002;opacity:0.8;-webkit-transition:opacity 100ms;-moz-transition:opacity 100ms;-o-transition:opacity 100ms;transition:opacity 100ms}.uv-icon.uv-bottom-right{bottom:10px;right:12px}.uv-icon.uv-top-right{top:10px;right:12px}.uv-icon.uv-bottom-left{bottom:10px;left:12px}.uv-icon.uv-top-left{top:10px;left:12px}.uv-icon.uv-is-selected{opacity:1}.uv-icon svg{width:39px;height:39px}.uv-popover{font-family:sans-serif;font-weight:100;font-size:13px;color:black;position:fixed;z-index:100001}.uv-popover-content{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;background:white;position:relative;width:325px;height:325px;-webkit-transition:background 200ms;-moz-transition:background 200ms;-o-transition:background 200ms;transition:background 200ms}.uv-bottom .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 0 -10px 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-top .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 0 10px 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-left .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) 10px 0 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-right .uv-popover-content{-webkit-box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;-moz-box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px;box-shadow:rgba(0,0,0,0.3) -10px 0 60px,rgba(0,0,0,0.1) 0 0 20px}.uv-ie8 .uv-popover-content{position:relative}.uv-ie8 .uv-popover-content .uv-popover-content-shadow{display:block;background:black;content:'';position:absolute;left:-15px;top:-15px;width:100%;height:100%;filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=15,MakeShadow=true,ShadowOpacity=0.30);z-index:-1}.uv-popover-tail{border:8px solid transparent;width:0;z-index:10;position:absolute;-webkit-transition:border-top-color 200ms;-moz-transition:border-top-color 200ms;-o-transition:border-top-color 200ms;transition:border-top-color 200ms}.uv-top .uv-popover-tail{bottom:-20px;border-top:12px solid white}.uv-bottom .uv-popover-tail{top:-20px;border-bottom:12px solid white}.uv-left .uv-popover-tail{right:-20px;border-left:12px solid white}.uv-right .uv-popover-tail{left:-20px;border-right:12px solid white}.uv-popover-loading{background:white;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;position:absolute;width:100%;height:100%;left:0;top:0}.uv-popover-loading-text{position:absolute;top:50%;margin-top:-0.5em;width:100%;text-align:center}.uv-popover-iframe-container{height:100%}.uv-popover-iframe{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;overflow:hidden}.uv-is-hidden{display:none}.uv-is-invisible{display:block !important;visibility:hidden !important}.uv-is-transitioning{display:block !important}.uv-no-transition{-moz-transition:none !important;-webkit-transition:none !important;-o-transition:color 0 ease-in !important;transition:none !important}.uv-fade{opacity:1;-webkit-transition:opacity 200ms ease-out;-moz-transition:opacity 200ms ease-out;-o-transition:opacity 200ms ease-out;transition:opacity 200ms ease-out}.uv-fade.uv-is-hidden{opacity:0}.uv-scale-top,.uv-scale-top-left,.uv-scale-top-right,.uv-scale-bottom,.uv-scale-bottom-left,.uv-scale-bottom-right,.uv-scale-right,.uv-scale-right-top,.uv-scale-right-bottom,.uv-scale-left,.uv-scale-left-top,.uv-scale-left-bottom,.uv-slide-top,.uv-slide-bottom,.uv-slide-left,.uv-slide-right{opacity:1;-webkit-transition:all 80ms ease-out;-moz-transition:all 80ms ease-out;-o-transition:all 80ms ease-out;transition:all 80ms ease-out}.uv-scale-top.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(-15%);-moz-transform:scale(0.8) translateY(-15%);-ms-transform:scale(0.8) translateY(-15%);-o-transform:scale(0.8) translateY(-15%);transform:scale(0.8) translateY(-15%)}.uv-scale-top-left.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(-15%) translateX(-10%);-moz-transform:scale(0.8) translateY(-15%) translateX(-10%);-ms-transform:scale(0.8) translateY(-15%) translateX(-10%);-o-transform:scale(0.8) translateY(-15%) translateX(-10%);transform:scale(0.8) translateY(-15%) translateX(-10%)}.uv-scale-top-right.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(-15%) translateX(10%);-moz-transform:scale(0.8) translateY(-15%) translateX(10%);-ms-transform:scale(0.8) translateY(-15%) translateX(10%);-o-transform:scale(0.8) translateY(-15%) translateX(10%);transform:scale(0.8) translateY(-15%) translateX(10%)}.uv-scale-bottom.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(15%);-moz-transform:scale(0.8) translateY(15%);-ms-transform:scale(0.8) translateY(15%);-o-transform:scale(0.8) translateY(15%);transform:scale(0.8) translateY(15%)}.uv-scale-bottom-left.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(15%) translateX(-10%);-moz-transform:scale(0.8) translateY(15%) translateX(-10%);-ms-transform:scale(0.8) translateY(15%) translateX(-10%);-o-transform:scale(0.8) translateY(15%) translateX(-10%);transform:scale(0.8) translateY(15%) translateX(-10%)}.uv-scale-bottom-right.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateY(15%) translateX(10%);-moz-transform:scale(0.8) translateY(15%) translateX(10%);-ms-transform:scale(0.8) translateY(15%) translateX(10%);-o-transform:scale(0.8) translateY(15%) translateX(10%);transform:scale(0.8) translateY(15%) translateX(10%)}.uv-scale-right.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(15%);-moz-transform:scale(0.8) translateX(15%);-ms-transform:scale(0.8) translateX(15%);-o-transform:scale(0.8) translateX(15%);transform:scale(0.8) translateX(15%)}.uv-scale-right-top.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(15%) translateY(-10%);-moz-transform:scale(0.8) translateX(15%) translateY(-10%);-ms-transform:scale(0.8) translateX(15%) translateY(-10%);-o-transform:scale(0.8) translateX(15%) translateY(-10%);transform:scale(0.8) translateX(15%) translateY(-10%)}.uv-scale-right-bottom.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(15%) translateY(10%);-moz-transform:scale(0.8) translateX(15%) translateY(10%);-ms-transform:scale(0.8) translateX(15%) translateY(10%);-o-transform:scale(0.8) translateX(15%) translateY(10%);transform:scale(0.8) translateX(15%) translateY(10%)}.uv-scale-left.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(-15%);-moz-transform:scale(0.8) translateX(-15%);-ms-transform:scale(0.8) translateX(-15%);-o-transform:scale(0.8) translateX(-15%);transform:scale(0.8) translateX(-15%)}.uv-scale-left-top.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(-15%) translateY(-10%);-moz-transform:scale(0.8) translateX(-15%) translateY(-10%);-ms-transform:scale(0.8) translateX(-15%) translateY(-10%);-o-transform:scale(0.8) translateX(-15%) translateY(-10%);transform:scale(0.8) translateX(-15%) translateY(-10%)}.uv-scale-left-bottom.uv-is-hidden{opacity:0;-webkit-transform:scale(0.8) translateX(-15%) translateY(10%);-moz-transform:scale(0.8) translateX(-15%) translateY(10%);-ms-transform:scale(0.8) translateX(-15%) translateY(10%);-o-transform:scale(0.8) translateX(-15%) translateY(10%);transform:scale(0.8) translateX(-15%) translateY(10%)}.uv-slide-top.uv-is-hidden{-webkit-transform:translateY(-100%);-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-o-transform:translateY(-100%);transform:translateY(-100%)}.uv-slide-bottom.uv-is-hidden{-webkit-transform:translateY(100%);-moz-transform:translateY(100%);-ms-transform:translateY(100%);-o-transform:translateY(100%);transform:translateY(100%)}.uv-slide-left.uv-is-hidden{-webkit-transform:translateX(-100%);-moz-transform:translateX(-100%);-ms-transform:translateX(-100%);-o-transform:translateX(-100%);transform:translateX(-100%)}.uv-slide-right.uv-is-hidden{-webkit-transform:translateX(100%);-moz-transform:translateX(100%);-ms-transform:translateX(100%);-o-transform:translateX(100%);transform:translateX(100%)}
+</style><style type="text/css"></style><style>a, button, .sl-select, .sl-checkbox label { outline: none !important; }</style><script type="text/javascript" async="" src="./presentasi vlan mininet_files/embed.js"></script><style type="text/css"></style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_invisible{display:none}
+.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_reset > div{overflow:hidden}
+.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}
+.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}
+.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title > span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif)
+no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}
+.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif)
+white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}
+.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}
+#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}
+#fb-root #fb_dialog_ipad_overlay.hidden{display:none}
+.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}
+.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0 0, 0 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}
+.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%
+}
+.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0 0, 0 100%, from(#4966A6),
+color-stop(0.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset,
+rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}
+.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}
+.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:left}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}
+.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}
+.fb_iframe_widget iframe{position:absolute}
+.fb_iframe_widget_lift{z-index:1}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_fluid{display:inline}
+.fb_iframe_widget_fluid span{width:100%}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fb_edge_widget_with_comment{position:relative;*z-index:1000}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget{position:absolute}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget{z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader{left:0;top:1px;margin-top:6px;margin-left:0;background-position:50% 50%;background-color:#fff;height:150px;width:394px;border:1px #666 solid;border-bottom:2px solid #283e6c;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader{background-color:#000;border-bottom:2px solid #ccc}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader{margin-top:0}
+.fbpluginrecommendationsbarleft,
+.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}
+.fbpluginrecommendationsbarleft{left:10px}
+.fbpluginrecommendationsbarright{right:10px}</style><style></style><script type="text/javascript" async="" src="file://slidesapp.disqus.com/embed.js"></script></head>
+  <body data-twttr-rendered="true">
+    <div id="container" class="container">
+      
+<header class="global-header show-on-scroll">
+  <div class="wrapper">
+    <h1 class="logo-animation open">
+      <a class="symbol" href="http://slid.es/">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+      </a>
+      <a class="word" href="http://slid.es/"></a>
+    </h1>
+    <ul class="nav">
+      <li data-page-id="home/explore"><a href="http://slid.es/explore" class="page-link">Explore</a></li>
+      <li data-page-id="static/features"><a href="http://slid.es/features" class="page-link">Features</a></li>
+      <li data-page-id="static/pricing"><a href="http://slid.es/pricing" class="page-link">Pricing</a></li>
+
+
+        <li>
+          <div class="profile dropdown">
+  <a class="dropdown-button page-link" href="http://slid.es/rochmadnh">
+    <span class="icon i-user"></span>
+    <span class="username">rochmadnh</span>
+  </a>
+
+  <div class="dropdown-list">
+    <ul class="dropdown-list-inner">
+      <li>
+        <a class="button grey" href="http://slid.es/rochmadnh">
+          Profile <span class="icon i-home"></span>
+        </a>
+      </li>
+      <li>
+        <a class="button grey" href="http://slid.es/rochmadnh/new">
+          New deck <span class="icon i-plus"></span>
+        </a>
+      </li>
+      <li>
+        <a class="button grey" href="http://slid.es/users/edit">
+          Settings <span class="icon i-cog"></span>
+        </a>
+      </li>
+      <li>
+        <a class="button grey" href="http://slid.es/pricing">
+          Go Pro <span class="icon i-star"></span>
+        </a>
+      </li>
+      <li>
+        <a class="button grey negative" href="http://slid.es/users/sign_out" data-method="delete" rel="nofollow">
+          Sign out <span class="icon i-exit"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+        </li>
+
+    </ul>
+  </div>
+</header>
+      
+      <div id="main" class="main" role="main">
+        
+
+
+
+<div class="marquee loading">
+
+	<div class="reveal-frame">
+		<div class="reveal reveal-viewport theme-font-josefine theme-color-asphalt-orange linear" data-transition-speed="default" data-background-transition="fade">
+			<div class="slides" style="width: 960px; height: 700px; zoom: 0.6942857142857143;">
+				<section class="present" style="display: block;"><div><span style="font-size: 64.566px;"><br></span></div>
+<div><h2 style="font-style: normal; font-variant: normal;">Implementasi VLAN</h2></div>
+<div><h2 style="font-style: normal; font-variant: normal;">Pada Mininet</h2></div>
+<div><font style="font-size: 32px;"><br></font></div>
+<div><font style="font-size: 32px;"><br></font></div>
+<div><h2 style="font-style: normal; font-variant: normal;"><br></h2></div>
+<div>
+<font style="font-size: 32px;"><br></font><div><font style="font-size: 32px;"><br></font></div>
+<div><h2 style="text-align: right; font-style: normal; font-variant: normal;">Rochmad Nurul Hidayat</h2></div>
+</div>
+<div><h2 style="font-style: normal; font-variant: normal; text-align: right;">23212003</h2></div>
+<div><br></div></section><section class="future" style="display: block;" hidden=""><h2 style="text-align: left; ">Agenda</h2>
+<div style="text-align: left; "><h2 style="font-style: normal; font-variant: normal;"><ul>
+<li>
+<span style="font-size: 64.566px;">Teknologi switch</span><br>
+</li>
+<li>
+<span style="font-size: 64.566px;">VLAN</span><br>
+</li>
+<li>
+<span style="font-size: 64.566px;">Implementasi VLAN menggunakan manageable switch</span><br>
+</li>
+<li>
+<span style="font-size: 64.566px;">Implementasi VLAN menggunakan Mininet</span><br>
+</li>
+<li>
+<span style="font-size: 64.566px;">Demo --&gt; Video recording/Live</span><br>
+</li>
+</ul></h2></div></section><section class="future" style="display: block;" hidden=""><h2 style="text-align: left; ">Teknologi pada switch</h2>
+<div style="text-align: left; "><div><h2 style="font-style: normal; font-variant: normal;"><ul>
+<li>
+<span style="font-size: 64.566px;">Pada setiap port di switch terdapat collision domain</span><br>
+</li>
+<li>
+<span style="font-size: 64.566px;">Setiap port switch </span><b style="font-size: 64.566px;">share</b><span style="font-size: 64.566px;"> broadcast domain yang sama</span><br>
+</li>
+<li>
+<span style="font-size: 64.566px;">Broadcast domain yang terlalu besar bisa mengakibatkan jaringan menjadi lambat</span><br>
+</li>
+</ul></h2></div></div></section><section class="future" style="display: block;" hidden=""><h2 style="text-align: left; ">VLAN</h2>
+<div style="text-align: left; ">
+<h2 style="font-style: normal; font-variant: normal;"><ul>
+<li>
+<span style="font-size: 64.566px;">Merupakan solusi untuk mengatasi broadcast domain yang besar</span><br>
+</li>
+<li>
+<span style="font-size: 64.566px;">Memisahkan broadcast domain</span><br>
+</li>
+<li>
+<span style="font-size: 64.566px;">Setiap port pada VLAN yang sama berada pada satu broadcast domain yang sama</span><br>
+</li>
+</ul></h2>
+<div><br></div>
+</div></section><section data-background-size="contain" class="future" style="display: none;" hidden=""><h2 style="text-align: left; ">Implementasi VLAN menggunakan manageable switch</h2>
+<div><br></div>
+<div>
+<img src="./presentasi vlan mininet_files/Topologi3.jpg"><br>
+</div></section><section class="future" style="display: none;" hidden=""><h2 style="font-style: normal; font-variant: normal; text-align: left;">Implementasi VLAN menggunakan Mininet</h2>
+<div>
+<img src="./presentasi vlan mininet_files/Topologi4.jpg" style="width: 762.9754156123494px; height: 507.48837221130844px; max-height: none; max-width: none;"><br>
+</div></section><section class="future" style="display: none;" hidden=""><h2 style="font-style: normal; font-variant: normal; text-align: left;">Implementasi VLAN menggunakan Mininet(2)</h2>
+<div>
+<h2 style="text-align: left;">
+<font face="Lato, sans-serif"><span style="font-size: 36.17571258544922px;"><br></span></font><span>1. Membuat script mininet dengan ekstensi .sh --&gt; mininetScript</span>
+</h2>
+<h2 style="text-align: left;">
+<br><span>2. Membuat script controller dengan ekstensi .py --&gt; controllerScript</span>
+</h2>
+<h2 style="text-align: left;">
+<br><br>
+</h2>
+</div></section><section class="future" style="display: block;" hidden=""><h2 style="text-align: left; ">
+<span style="font-size: 64.566px;">Implementasi VLAN menggunakan Mininet</span>(3)</h2>
+<div><h2 style="font-style: normal; font-variant: normal; text-align: left;">3. Memberi hak akses file mininetScript.sh<div><span style="background-color: rgb(102, 102, 102);">sudo chmod +x mininetScript.sh</span></div>
+<div>4. Memberi hak akses file controllerScript.py</div>
+<div><span style="background-color: rgb(102, 102, 102);">sudo chmod +x controllerScript.py</span></div>
+</h2></div></section><section class="future" style="display: block;" hidden=""><h2 style="text-align: left; ">Pengujian</h2>
+<div><br></div>
+<div style="text-align: left; ">
+<h2 style="font-style: normal; font-variant: normal;">1. Menjalankan file mininetScript.sh</h2>
+<div><h2 style="font-style: normal; font-variant: normal;"><span style="background-color: rgb(102, 102, 102);">sudo ./mininetScript.sh</span></h2></div>
+<div><h2 style="font-style: normal; font-variant: normal;">2. Menjalankan file controllerScript.py</h2></div>
+<div><h2 style="font-style: normal; font-variant: normal;"><span style="background-color: rgb(102, 102, 102);">sudo ./pox.py controllerScript.py</span></h2></div>
+<div><br></div>
+</div></section><section class="future" style="display: block;" hidden=""><h2 style="text-align: left; ">Referensi</h2>
+<div><font color="#ffffff"><br></font></div>
+<div>
+<p style="margin-top: 5.76pt; margin-bottom: 0pt; margin-left: 0.38in; text-indent: -0.38in; text-align: left; direction: ltr; unicode-bidi: embed;"><font color="#ffffff"><span style="font-family: Tahoma;">[</span><span style="font-family: Tahoma;">1]R</span><span style="font-family: Tahoma;">. Fontes, "Visual Network Description SDN
+Version," [Online]. </span><span style="font-family: Tahoma;">Tersedia</span><span style="font-family: Tahoma;">: </span><span style="font-family: Tahoma;">www.ramonfontes.com.
+</span><span style="font-family: Tahoma;">[</span><span style="font-family: Tahoma;">diakses</span><span style="font-family: Tahoma;"> </span><span style="font-family: Tahoma;">9</span><span style="font-family: Tahoma;"> </span><span style="font-family: Tahoma;">Oktober
+2013].</span></font></p>
+
+<p style="margin-top: 5.76pt; margin-bottom: 0pt; margin-left: 0.38in; text-indent: -0.38in; text-align: left; direction: ltr; unicode-bidi: embed;"><font color="#ffffff"><span style="font-family: Tahoma;">[</span><span style="font-family: Tahoma;">2]D</span><span style="font-family: Tahoma;">. Mahler, "OpenFlow protocol via
+Mininet," 2013.</span></font></p>
+
+<p style="margin-top: 5.76pt; margin-bottom: 0pt; margin-left: 0.38in; text-indent: -0.38in; text-align: left; direction: ltr; unicode-bidi: embed;"><font color="#ffffff"><span style="font-family: Tahoma;">[</span><span style="font-family: Tahoma;">3]M</span><span style="font-family: Tahoma;">. Team, "Mininet An Instant Virtual
+Network on your laptop (or other PC)," [Online]. </span><span style="font-family: Tahoma;">Tersedia</span><span style="font-family: Tahoma;">: </span><span style="font-family: Tahoma;">http://mininet.org/. </span><span style="font-family: Tahoma;">[</span><span style="font-family: Tahoma;">diakses&nbsp;</span><span style="font-family: Tahoma;">25 </span><span style="font-family: Tahoma;">September
+2013].</span></font></p>
+<table class="MsoNormalTable" border="0" cellpadding="0" width="100%" style="width:100.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184"><tbody></tbody></table>
+</div></section>
+			</div>
+		<div class="backgrounds"><div class="slide-background present"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future" style="background-size: contain;"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div><div class="slide-background future"></div></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;"><div class="navigate-left"></div><div class="navigate-right enabled"></div><div class="navigate-up"></div><div class="navigate-down"></div></aside><div class="state-background"></div><div class="pause-overlay"></div></div>
+	</div>
+
+	<div class="deck-kudos" style="opacity: 1;">
+		<button class="kudos-button kudos-trigger" data-kudos-id="85934" data-kudoed-by-user="false">
+			<div class="kudos-heart">
+				<span class="kudos-icon icon i-heart-fill"></span>
+			</div>
+			<div class="kudos-count" data-kudos-value="0" data-kudos-id="85934"></div>
+		</button>
+	</div>
+
+	
+
+</div>
+
+<div class="column">
+	<header>
+		<ul class="deck-social">
+			<li><div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div></li>
+			<li><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="./presentasi vlan mininet_files/tweet_button.1383343979.htm" class="twitter-share-button twitter-tweet-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="width: 110px; height: 20px;"></iframe></li>
+			<li><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background-position: initial initial; background-repeat: initial initial;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1383736760024" name="I0_1383736760024" src="./presentasi vlan mininet_files/fastbutton.htm" data-gapiattached="true" title="+1"></iframe></div></li>
+		</ul>
+
+
+		<div class="deck-options">
+			<a class="fullscreen-button" data-tooltip="Fullscreen" href="http://slid.es/rochmadnh/deck--2#"><span class="icon i-fullscreen"></span></a>
+			<a class="external-button" data-tooltip="Open in new window" href="http://slid.es/rochmadnh/deck--2/fullscreen" target="_blank"><span class="icon i-new-window"></span></a>
+			<a class="comment-button" data-tooltip="Comments" data-scroll-to="" href="http://slid.es/rochmadnh/deck--2#comments" data-scroll-to-offset="-90"><span class="icon i-comment-stroke"></span></a>
+			<a class="share-button" data-tooltip="Share" href="http://slid.es/rochmadnh/deck--2#"><span class="icon i-share"></span></a>
+			<a class="edit-button" data-tooltip="Edit" href="http://slid.es/rochmadnh/deck--2/edit#/9"><span class="icon i-pen-alt2"></span></a>
+		</div>
+
+		<div class="details">
+			<div class="deck-info">
+				<h3 class="title">deck</h3>
+				<p class="description">
+					<a class="" href="http://slid.es/rochmadnh/deck--2/edit?panel=settings">Edit deck title &amp; description</a>
+				</p>
+				<ul class="deck-meta">
+					<li data-tooltip="Published date" data-tooltip-delay="500">
+						<span class="icon i-clock"></span>
+						<time class="value ago" datetime="2013-10-30 05:42:24 UTC">7 days ago</time>
+					</li>
+					<li data-tooltip="Kudos" data-tooltip-delay="500">
+						<span class="icon i-heart-fill"></span>
+						<span class="value" data-kudos-value="0" data-kudos-id="85934"></span>
+					</li>
+					<li data-tooltip="Views" data-tooltip-delay="500">
+						<span class="icon i-eye"></span>
+						<span class="value">8</span>
+					</li>
+				</ul>
+			</div>
+
+			<div class="user-info">
+		<a class="icon i-cog edit" href="http://slid.es/users/edit" data-tooltip="Account settings"></a>
+	<div class="picture" style="background-image: url(https://www.gravatar.com/avatar/2f29e52cab7f9fbba9070662fdf25ddf?s=140&amp;d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png)"></div>
+	<div class="text">
+		<h3>
+			<a href="http://slid.es/rochmadnh" class="username">rochmadnh</a>
+		</h3>
+		<p class="description"></p>
+		<ul class="links">
+			
+			
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>
+
+			<div class="clear"></div>
+		</div>
+	</header>
+
+	<section class="comments" id="comments">
+		<div id="disqus_thread"><iframe id="dsq-2" data-disqus-uid="2" allowtransparency="true" frameborder="0" role="complementary" width="100%" src="./presentasi vlan mininet_files/saved_resource.htm" style="width: 100% !important; border: none !important; overflow: hidden !important; height: 339px !important;" scrolling="no" horizontalscrolling="no" verticalscrolling="no"></iframe><iframe id="dsq-indicator-north" data-disqus-uid="indicator-north" allowtransparency="true" frameborder="0" role="alert" scrolling="no" style="width: 1020px !important; border: none !important; overflow: hidden !important; top: 0px !important; position: fixed !important; height: 29px !important; display: none !important;"></iframe><iframe id="dsq-indicator-south" data-disqus-uid="indicator-south" allowtransparency="true" frameborder="0" role="alert" scrolling="no" style="width: 1020px !important; border: none !important; overflow: hidden !important; bottom: 0px !important; position: fixed !important; height: 29px !important; display: none !important;"></iframe></div>
+	</section>
+
+
+</div>
+
+      </div>
+      <footer class="global-footer">
+  <small>
+
+    <div class="link-group">
+      <h5>Product</h5>
+      <a href="http://slid.es/">Home</a>
+      <a href="http://slid.es/explore">Explore</a>
+      <a href="http://slid.es/features">Features</a>
+      <a href="http://slid.es/pricing">Pricing</a>
+    </div>
+
+    <div class="link-group">
+      <h5>Help</h5>
+      <a href="http://slides.uservoice.com/" target="_blank">Forum</a>
+      <a href="http://slides.uservoice.com/knowledgebase" target="_blank">Knowledge base</a>
+      <a href="http://slid.es/rochmadnh/deck--2#" data-feedback-mode="smartvote">Give feedback</a>
+      <a href="http://slid.es/rochmadnh/deck--2#" data-feedback-mode="contact">Report an issue</a>
+    </div>
+
+    <div class="link-group">
+      <h5>News</h5>
+      <a href="http://blog.slid.es/" target="_blank">Blog</a>
+      <a href="http://twitter.com/slidesapp" target="_blank">Twitter</a>
+      <a href="http://facebook.com/slidesapp" target="_blank">Facebook</a>
+    </div>
+
+    <div class="link-group">
+      <h5>Company</h5>
+      <a href="http://slid.es/about">About Slides</a>
+      <a href="http://slid.es/terms">Terms</a>
+      <a href="http://slid.es/privacy">Privacy</a>
+    </div>
+
+    <div class="copyright"><span>© Slides 2013</span></div>
+  </small>
+</footer>
+    </div> <!--! end of #container -->
+    
+<script>
+	var SLConfig = {"current_user":{"id":77132,"username":"rochmadnh","name":null,"email":"rochmad.nh@gmail.com","description":null,"thumbnail_url":"https://www.gravatar.com/avatar/2f29e52cab7f9fbba9070662fdf25ddf?s=140&d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"enterprise":false,"registered":true},"deck":{"id":85934,"slug":"deck--2","title":"deck","description":"","visibility":"all","published_at":"2013-10-30T05:42:24Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/rochmadnh/b39bd5/deck--2.jpg","view_count":8,"user":{"id":77132,"username":"rochmadnh","name":null,"email":"rochmad.nh@gmail.com","description":null,"thumbnail_url":"https://www.gravatar.com/avatar/2f29e52cab7f9fbba9070662fdf25ddf?s=140&d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"enterprise":false,"registered":true},"background_transition":"fade","transition":"linear","theme_id":null,"theme_font":"josefine","theme_color":"asphalt-orange","auto_slide_interval":0,"comments_visible":true,"rolling_links":false,"should_loop":false,"center":false,"rtl":false,"access_token":"DD3qGkjyxZ6sQa72zqCMb2qpRuQr"}};
+</script>
+    <script src="./presentasi vlan mininet_files/application-bc189f387af20424bd073f07e32301f2.js" type="text/javascript"></script><div id="modal"></div><div id="modal-cover"></div><div id="modal-background"></div><div id="modal"></div><div id="modal-cover"></div><div id="modal-background"></div>
+    	<script src="./presentasi vlan mininet_files/reveal.min-1e9b4bd931dbbf686946c2ad5159d8cd.js" type="text/javascript"></script>
+
+      <script>
+    analytics.identify('77132', {
+      name             : '',
+      email            : 'rochmad.nh@gmail.com',
+    });
+  </script>
+
+  <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-5.newrelic.com","4fd2e9786b","1563900","cApZREQKWl9XFxZQVlAORB9FDVlE",0,217,new Date().getTime(),"","","","",""]);</script>
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div><script type="text/javascript" src="./presentasi vlan mininet_files/highlight.js"></script><script type="text/javascript" src="./presentasi vlan mininet_files/notes.js"></script><iframe name="oauth2relay236444406" id="oauth2relay236444406" src="./presentasi vlan mininet_files/postmessageRelay.htm" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><div id="fb-root"></div><script type="text/javascript" src="file:///C:/assets/reveal-plugins/highlight/highlight.js"></script><script type="text/javascript" src="file:///C:/assets/reveal-plugins/notes/notes.js" gapi_processed="true"></script></body></html>
